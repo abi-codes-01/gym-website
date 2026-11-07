@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" fill="none">
+  <defs>
+    <linearGradient id="pulseGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E11D48" />
+      <stop offset="50%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <!-- Emblem Box -->
+  <rect x="2" y="4" width="56" height="56" rx="14" fill="url(#pulseGrad)" />
+  <!-- Lightning / Pulse Barbell Icon -->
+  <path
+    d="M34 14L16 35H29L26 50L44 29H31L34 14Z"
+    fill="#FFFFFF"
+    stroke="#FFFFFF"
+    stroke-width="1.5"
+    stroke-linejoin="round"
+  />
+  <!-- Brand Wordmark -->
+  <text
+    x="72"
+    y="41"
+    fill="#FFFFFF"
+    font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+    font-weight="900"
+    font-size="31"
+    letter-spacing="1"
+  >
+    PULSE<tspan fill="#F43F5E">FIT</tspan>
+  </text>
+  <text
+    x="74"
+    y="55"
+    fill="#94A3B8"
+    font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+    font-weight="700"
+    font-size="9"
+    letter-spacing="4.5"
+  >
+    PERFORMANCE STUDIO
+  </text>
+</svg>

@@ -1,0 +1,21 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+**/node_modules/
+**/dist/
+
+# Backend
+backend/target/
+**/target/
+*.class
+*.jar
+
+# Environment & OS
+.env
+.env.*
+**/.env
+**/.env.*
+.DS_Store
+.idea/
+.vscode/
+*.log

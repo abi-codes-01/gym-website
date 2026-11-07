@@ -1,0 +1,24 @@
+# Maven build output
+target/
+
+# Compiled Java class & archive files
+*.class
+*.jar
+*.war
+*.ear
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Logs & Environment
+*.log
+.env
+.env.*
+
+# IDE / OS metadata
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.DS_Store
